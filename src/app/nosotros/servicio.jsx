@@ -88,7 +88,7 @@ export default function ServiceNosotros() {
 
     return (
         <>
-            <Header search={true} openPopup={() => {}} />
+            <Header search={false} openPopup={() => {}} />
             <div className="container mx-auto px-4">
                 {/* Encabezado / Presentación */}
                 <div className="flex flex-col items-center gap-10 pt-36">
