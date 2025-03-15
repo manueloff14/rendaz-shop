@@ -234,7 +234,7 @@ export default function Servicio({ data }) {
                 <div className="flex flex-wrap justify-center gap-6 px-6">
                     {data
                         .filter((servicio) => servicio.link !== nombre)
-                        .slice(0, 8)
+                        .slice(0, 6)
                         .map((servicio, index) => (
                             <Link
                                 key={index}

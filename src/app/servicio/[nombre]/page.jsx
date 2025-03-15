@@ -4,109 +4,57 @@
 // Array de datos con los servicios
 const data = [
     {
-        link: "apple-tv",
-        servicio: "Apple TV+",
-        logo: "https://logodownload.org/wp-content/uploads/2023/05/apple-tv-logo.png",
-        planes: [
-            {
-                nombre: "Básico",
-                precioAnterior: 12900,
-                precioActual: 9900,
-                descuento: 23.26,
-                beneficios: [
-                    "Acceso al catálogo en HD",
-                    "1 dispositivo simultáneo",
-                    "Compatible con iOS y macOS",
-                ],
-                advertencias: [
-                    "No incluye calidad 4K",
-                    "No disponible en Android TV",
-                ],
-                esRecomendado: false,
-                esMejorPlan: false,
-            },
-            {
-                nombre: "Premium",
-                precioAnterior: 15900,
-                precioActual: 12900,
-                descuento: 18.87,
-                beneficios: [
-                    "Acceso al catálogo en 4K",
-                    "2 dispositivos simultáneos",
-                    "Descargas sin conexión",
-                ],
-                advertencias: [
-                    "Algunos contenidos no están disponibles fuera de la región",
-                ],
-                esRecomendado: true,
-                esMejorPlan: false,
-            },
-            {
-                nombre: "Familiar",
-                precioAnterior: 19900,
-                precioActual: 14900,
-                descuento: 25.13,
-                beneficios: [
-                    "Acceso al catálogo en 4K",
-                    "4 dispositivos simultáneos",
-                    "Perfil individual para cada miembro",
-                ],
-                advertencias: [
-                    "No se permite uso comercial",
-                    "Verifica compatibilidad con Smart TV",
-                ],
-                esRecomendado: false,
-                esMejorPlan: true,
-            },
-        ],
-    },
-    {
         link: "netflix",
         servicio: "Netflix",
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/1024px-Netflix_icon.svg.png",
         planes: [
             {
                 nombre: "Básico",
-                precioAnterior: 12900,
-                precioActual: 9900,
-                descuento: 23.26,
-                beneficios: ["Catálogo en HD", "1 pantalla", "Sin publicidad"],
-                advertencias: ["No incluye 4K", "Catálogo varía según región"],
-                esRecomendado: false,
-                esMejorPlan: false,
+                precioAnterior: 10000,
+                precioActual: 5500,
+                descuento: 70.83,
+                beneficios: [
+                    "Acceso al catálogo en HD",
+                    "1 dispositivo simultáneo",
+                    "Contenido variado para toda la familia"
+                ],
+                advertencias: [
+                    "Cuenta compartida con otros usuarios",
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                    "No incluye 4K"
+                ]
             },
             {
                 nombre: "Premium",
-                precioAnterior: 15900,
-                precioActual: 12900,
-                descuento: 18.87,
+                precioAnterior: 15000,
+                precioActual: 13000,
+                descuento: 8.33,
                 beneficios: [
-                    "Catálogo en 4K",
-                    "2 pantallas simultáneas",
-                    "Descargas en múltiples dispositivos",
-                ],
-                advertencias: ["Algunos títulos se retiran mensualmente"],
-                esRecomendado: true,
-                esMejorPlan: false,
-            },
-            {
-                nombre: "Familiar",
-                precioAnterior: 19900,
-                precioActual: 14900,
-                descuento: 25.13,
-                beneficios: [
-                    "Catálogo en 4K",
-                    "4 pantallas simultáneas",
-                    "Perfiles para cada miembro de la familia",
+                    "Acceso en HD",
+                    "1 perfil exclusivo para 1 persona",
+                    "Sin interrupciones ni compartir cuentas"
                 ],
                 advertencias: [
-                    "Uso compartido solo entre familiares",
-                    "Precio variable en ciertos países",
-                ],
-                esRecomendado: false,
-                esMejorPlan: true,
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                    "No incluye 4K"
+                ]
             },
-        ],
+            {
+                nombre: "Team",
+                precioAnterior: 50000,
+                precioActual: 42500,
+                descuento: 8.88,
+                beneficios: [
+                    "Acceso completo en 4K",
+                    "Hasta 4 perfiles",
+                    "4 pantallas simultáneas"
+                ],
+                advertencias: [
+                    "Solo para uso familiar",
+                    "No se permite uso comercial"
+                ]
+            }
+        ]
     },
     {
         link: "disney-plus",
@@ -115,112 +63,49 @@ const data = [
         planes: [
             {
                 nombre: "Básico",
-                precioAnterior: 12900,
-                precioActual: 9900,
-                descuento: 23.26,
+                precioAnterior: 8000,
+                precioActual: 3500,
+                descuento: 56.25,
                 beneficios: [
                     "Acceso a contenido en HD",
-                    "1 perfil",
-                    "Catálogo de Disney, Pixar, Marvel, Star Wars",
+                    "1 dispositivo simultáneo",
+                    "Catálogo Disney, Pixar, Marvel y Star Wars"
                 ],
                 advertencias: [
-                    "No incluye contenido 4K",
-                    "Algunas películas se retiran temporalmente",
-                ],
-                esRecomendado: false,
-                esMejorPlan: false,
+                    "Cuenta compartida con otros usuarios",
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                    "No incluye 4K"
+                ]
             },
             {
                 nombre: "Premium",
-                precioAnterior: 15900,
-                precioActual: 12900,
-                descuento: 18.87,
+                precioAnterior: 15000,
+                precioActual: 8000,
+                descuento: 6.25,
                 beneficios: [
-                    "Contenido en 4K",
-                    "2 perfiles simultáneos",
-                    "Descarga ilimitada en dispositivos móviles",
+                    "Acceso en HD",
+                    "1 perfil exclusivo para 1 persona",
+                    "Catálogo Disney, Pixar, Marvel y Star Wars"
                 ],
                 advertencias: [
-                    "Algunos estrenos tienen costo adicional (Premier Access)",
-                ],
-                esRecomendado: true,
-                esMejorPlan: false,
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
+                ]
             },
             {
-                nombre: "Familiar",
-                precioAnterior: 19900,
-                precioActual: 14900,
-                descuento: 25.13,
+                nombre: "Team",
+                precioAnterior: 28000,
+                precioActual: 20000,
+                descuento: 11.11,
                 beneficios: [
-                    "Contenido en 4K",
-                    "4 perfiles simultáneos",
-                    "Control parental avanzado",
+                    "Acceso completo en HD",
+                    "Hasta 4 perfiles",
+                    "4 pantallas simultáneas"
                 ],
                 advertencias: [
-                    "No se permite uso comercial",
-                    "Las suscripciones anuales no incluyen Premier Access",
-                ],
-                esRecomendado: false,
-                esMejorPlan: true,
-            },
-        ],
-    },
-    {
-        link: "chatgpt",
-        servicio: "ChatGPT",
-        logo: "https://static.vecteezy.com/system/resources/previews/024/558/807/non_2x/openai-chatgpt-logo-icon-free-png.png",
-        planes: [
-            {
-                nombre: "Básico",
-                precioAnterior: 12900,
-                precioActual: 9900,
-                descuento: 23.26,
-                beneficios: [
-                    "Uso personal de IA",
-                    "Límite de 100 preguntas diarias",
-                    "Respuesta en texto",
-                ],
-                advertencias: [
-                    "Sin soporte prioritario",
-                    "No apto para uso profesional",
-                ],
-                esRecomendado: false,
-                esMejorPlan: false,
-            },
-            {
-                nombre: "Premium",
-                precioAnterior: 15900,
-                precioActual: 12900,
-                descuento: 18.87,
-                beneficios: [
-                    "Consultas ilimitadas",
-                    "Acceso a funciones beta",
-                    "Soporte prioritario 24/7",
-                ],
-                advertencias: [
-                    "Puede experimentar tiempos de espera en horas pico",
-                ],
-                esRecomendado: true,
-                esMejorPlan: false,
-            },
-            {
-                nombre: "Familiar (Team)",
-                precioAnterior: 19900,
-                precioActual: 14900,
-                descuento: 25.13,
-                beneficios: [
-                    "Cuentas para hasta 4 usuarios",
-                    "Uso colaborativo en tiempo real",
-                    "Herramientas avanzadas de análisis",
-                ],
-                advertencias: [
-                    "Solo para equipos pequeños",
-                    "Soporte vía correo electrónico",
-                ],
-                esRecomendado: false,
-                esMejorPlan: true,
-            },
-        ],
+                    "Solo para uso familiar"
+                ]
+            }
+        ]
     },
     {
         link: "amazon-prime",
@@ -229,55 +114,242 @@ const data = [
         planes: [
             {
                 nombre: "Básico",
-                precioAnterior: 12900,
-                precioActual: 9900,
-                descuento: 23.26,
+                precioAnterior: 6000,
+                precioActual: 4500,
+                descuento: 61.11,
                 beneficios: [
                     "Prime Video en HD",
-                    "Envíos gratuitos en Amazon",
-                    "1 cuenta",
+                    "1 dispositivo simultáneo",
+                    "Acceso a envíos gratuitos de Amazon"
                 ],
                 advertencias: [
-                    "No incluye contenido 4K",
-                    "Limitado a 1 dispositivo simultáneo",
-                ],
-                esRecomendado: false,
-                esMejorPlan: false,
+                    "Cuenta compartida con otros usuarios",
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
+                ]
             },
             {
                 nombre: "Premium",
-                precioAnterior: 15900,
-                precioActual: 12900,
-                descuento: 18.87,
+                precioAnterior: 10500,
+                precioActual: 9000,
+                descuento: 11.11,
                 beneficios: [
-                    "Prime Video en 4K",
-                    "Envíos gratuitos en Amazon",
-                    "2 dispositivos simultáneos",
+                    "Acceso exclusivo en HD",
+                    "1 perfil individual",
+                    "Prime Video + envíos Prime"
                 ],
                 advertencias: [
-                    "Algunas películas y series no están disponibles en 4K",
-                ],
-                esRecomendado: true,
-                esMejorPlan: false,
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
+                ]
             },
             {
-                nombre: "Familiar",
-                precioAnterior: 19900,
-                precioActual: 14900,
-                descuento: 25.13,
+                nombre: "Team",
+                precioAnterior: 24000,
+                precioActual: 20000,
+                descuento: 10,
                 beneficios: [
-                    "Prime Video en 4K",
-                    "Envíos gratuitos en Amazon",
-                    "Hasta 4 perfiles en la cuenta",
+                    "Acceso completo en 4K",
+                    "Hasta 4 perfiles",
+                    "4 pantallas simultáneas"
                 ],
                 advertencias: [
-                    "Verifica disponibilidad de envíos en tu zona",
-                    "No se permite reventa de productos",
+                    "Solo para uso familiar"
+                ]
+            }
+        ]
+    },
+    {
+        link: "hbo-max",
+        servicio: "HBO Max",
+        logo: "https://dj7fdt04hl8tv.cloudfront.net/acm/media/product/hbo%20max/max-app-logo-r.png",
+        planes: [
+            {
+                nombre: "Básico",
+                precioAnterior: 8500,
+                precioActual: 3500,
+                descuento: 58.82,
+                beneficios: [
+                    "Acceso a HBO Max en HD",
+                    "1 dispositivo simultáneo",
+                    "Contenido exclusivo HBO"
                 ],
-                esRecomendado: false,
-                esMejorPlan: true,
+                advertencias: [
+                    "Cuenta compartida con otros usuarios",
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
+                ]
             },
-        ],
+            {
+                nombre: "Premium",
+                precioAnterior: 9500,
+                precioActual: 8500,
+                descuento: 11.76,
+                beneficios: [
+                    "Acceso exclusivo en 4K",
+                    "1 perfil individual",
+                    "Series y películas exclusivas"
+                ],
+                advertencias: [
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
+                ]
+            },
+            {
+                nombre: "Team",
+                precioAnterior: 22000,
+                precioActual: 18000,
+                descuento: 11.11,
+                beneficios: [
+                    "Acceso completo en 4K",
+                    "Hasta 3 perfiles",
+                    "3 pantallas simultáneas"
+                ],
+                advertencias: [
+                    "Solo para uso familiar"
+                ]
+            }
+        ]
+    },
+    {
+        link: "paramount-plus",
+        servicio: "Paramount+",
+        logo: "https://sm.ign.com/t/ign_me/cover/p/paramount-/paramount-plus_nhmc.300.jpg",
+        planes: [
+            {
+                nombre: "Básico",
+                precioAnterior: 8500,
+                precioActual: 3500,
+                descuento: 58.82,
+                beneficios: [
+                    "Acceso en HD",
+                    "1 dispositivo simultáneo",
+                    "Series y películas exclusivas"
+                ],
+                advertencias: [
+                    "Cuenta compartida con otros usuarios"
+                ]
+            },
+            {
+                nombre: "Premium",
+                precioAnterior: 9500,
+                precioActual: 8500,
+                descuento: 11.76,
+                beneficios: [
+                    "Acceso exclusivo en 4K",
+                    "1 perfil individual",
+                    "Series y películas exclusivas"
+                ],
+                advertencias: [
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
+                ]
+            },
+            {
+                nombre: "Team",
+                precioAnterior: 20000,
+                precioActual: 16500,
+                descuento: 6.66,
+                beneficios: [
+                    "Acceso completo en 4K",
+                    "Hasta 3 perfiles",
+                    "3 pantallas simultáneas"
+                ],
+                advertencias: [
+                    "Solo para uso familiar"
+                ]
+            }
+        ]
+    },
+    {
+        link: "crunchyroll",
+        servicio: "Crunchyroll",
+        logo: "https://cdn.quicksell.co/-M5mfJ9Y8f2UdhwcIe3E/products/-NVjlQC0yRVBz3v4kFjX.jpg",
+        planes: [
+            {
+                nombre: "Básico",
+                precioAnterior: 8000,
+                precioActual: 5500,
+                descuento: 56.25,
+                beneficios: [
+                    "Acceso a contenido anime en HD",
+                    "1 dispositivo simultáneo"
+                ],
+                advertencias: [
+                    "Cuenta compartida con otros usuarios"
+                ]
+            },
+            {
+                nombre: "Premium",
+                precioAnterior: 9500,
+                precioActual: 8500,
+                descuento: 11.76,
+                beneficios: [
+                    "Acceso exclusivo en 4K",
+                    "1 perfil individual",
+                    "Series y películas exclusivas"
+                ],
+                advertencias: [
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
+                ]
+            },
+            {
+                nombre: "Team",
+                precioAnterior: 16000,
+                precioActual: 14500,
+                descuento: 7.14,
+                beneficios: [
+                    "Acceso completo en 4K",
+                    "Hasta 3 perfiles simultáneos"
+                ],
+                advertencias: [
+                    "Solo para uso familiar"
+                ]
+            }
+        ]
+    },
+    {
+        link: "chatgpt",
+        servicio: "ChatGPT",
+        logo: "https://static.vecteezy.com/system/resources/previews/024/558/807/non_2x/openai-chatgpt-logo-icon-free-png.png",
+        planes: [
+            {
+                nombre: "Básico",
+                precioAnterior: 35000,
+                precioActual: 25000,
+                descuento: 6.25,
+                beneficios: [
+                    "Acceso a ChatGPT 4",
+                    "Consultas básicas"
+                ],
+                advertencias: [
+                    "Cuenta compartida con otros usuarios",
+                    "Límite de consultas en horas pico"
+                ]
+            },
+            {
+                nombre: "Premium",
+                precioAnterior: 65000,
+                precioActual: 45000,
+                descuento: 6.25,
+                beneficios: [
+                    "Acceso ilimitado a ChatGPT 4",
+                    "Incluye funciones beta",
+                    "1 perfil exclusivo para 1 persona"
+                ],
+                advertencias: [
+                    "Uso personal exclusivamente"
+                ]
+            },
+            {
+                nombre: "Plus",
+                precioAnterior: 90000,
+                precioActual: 60000,
+                descuento: 5.17,
+                beneficios: [
+                    "Cuenta completa para un solo usuario",
+                    "Herramientas avanzadas de análisis"
+                ],
+                advertencias: [
+                    "Solo para una persona"
+                ]
+            }
+        ]
     },
     {
         link: "spotify",
@@ -288,91 +360,31 @@ const data = [
                 nombre: "Básico",
                 precioAnterior: 16900,
                 precioActual: 2900,
-                descuento: 50.85,
+                descuento: 6.25,
                 beneficios: [
-                    "Cuenta Spotify Premium",
                     "Audio en alta calidad",
-                    "Reproducción en modo aleatorio",
                     "Disponible en todos los dispositivos",
-                    "Modo sin conexión",
+                    "Modo sin conexión"
                 ],
-                advertencias: ["Cuenta compartida con otros usuarios"],
-                esRecomendado: false,
-                esMejorPlan: false,
+                advertencias: [
+                    "Cuenta compartida con otros usuarios"
+                ]
             },
             {
                 nombre: "Premium",
                 precioAnterior: 16900,
-                precioActual: 7500,
-                descuento: 40.4,
+                precioActual: 9000,
+                descuento: 6.25,
                 beneficios: [
-                    "Cuenta Spotify Premium",
+                    "Cuenta personal",
                     "Audio en alta calidad",
                     "Reproducción en modo aleatorio",
                     "Disponible en todos los dispositivos",
-                    "Modo sin conexión",
-                    "Sin anuncios",
+                    "Modo sin conexión"
                 ],
-                esRecomendado: true,
-                esMejorPlan: false,
-            },
-        ],
-    },
-    {
-        link: "hbo-max",
-        servicio: "HBO Max",
-        logo: "https://dj7fdt04hl8tv.cloudfront.net/acm/media/product/hbo%20max/max-app-logo-r.png",
-        planes: [
-            {
-                nombre: "Básico",
-                precioAnterior: 12900,
-                precioActual: 9900,
-                descuento: 23.26,
-                beneficios: [
-                    "Contenido en HD",
-                    "1 pantalla",
-                    "Acceso a series exclusivas de HBO",
-                ],
-                advertencias: [
-                    "No incluye 4K",
-                    "Algunas series pueden ser removidas",
-                ],
-                esRecomendado: false,
-                esMejorPlan: false,
-            },
-            {
-                nombre: "Premium",
-                precioAnterior: 15900,
-                precioActual: 12900,
-                descuento: 18.87,
-                beneficios: [
-                    "Contenido en 4K (en títulos seleccionados)",
-                    "2 pantallas simultáneas",
-                    "Descargas en la app móvil",
-                ],
-                advertencias: ["No todos los dispositivos soportan 4K"],
-                esRecomendado: true,
-                esMejorPlan: false,
-            },
-            {
-                nombre: "Familiar",
-                precioAnterior: 19900,
-                precioActual: 14900,
-                descuento: 25.13,
-                beneficios: [
-                    "Contenido en 4K",
-                    "4 pantallas simultáneas",
-                    "Perfiles infantiles con control parental",
-                ],
-                advertencias: [
-                    "Uso comercial no permitido",
-                    "Algunas películas tienen ventanas de disponibilidad limitadas",
-                ],
-                esRecomendado: false,
-                esMejorPlan: true,
-            },
-        ],
-    },
+            }
+        ]
+    }
 ];
 
 // Función que genera la metadata utilizando el servicio (no el link)
