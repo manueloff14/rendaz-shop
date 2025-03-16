@@ -117,44 +117,92 @@ export default function SearchComponent({ closePopup, animatePopup, data }) {
                         {filteredData.map((item, index) => {
                             const cheapestPlan = getCheapestPlan(item.planes);
                             return (
-                                <Link key={index} className="flex gap-2" href={"/servicio/" + item.link}>
-                                    <div className="w-28 h-28 rounded-4xl overflow-hidden hover:scale-105 transition-all duration-200">
-                                        <img
-                                            src={item.logo}
-                                            alt={item.servicio}
-                                            className="w-full h-full object-cover"
-                                        />
-                                    </div>
-                                    <div className="flex flex-col items-start gap-1">
-                                        <span className="text-lg text-black font-bold">
-                                            {item.servicio}
-                                        </span>
-                                        <span className="text-gray-500 text-sm mb-1">
-                                            ${" "}
-                                            {cheapestPlan
-                                                ? cheapestPlan.precioActual.toLocaleString(
-                                                      "es-CL"
-                                                  )
-                                                : "N/A"}
-                                        </span>
-                                        <button className="flex items-center gap-2 p-2 px-3 bg-black text-white rounded-full text-xs hover:scale-110 transition-all duration-200">
-                                            Comprar
-                                            <svg
-                                                xmlns="http://www.w3.org/2000/svg"
-                                                x="0px"
-                                                y="0px"
-                                                width="15"
-                                                height="15"
-                                                viewBox="0 0 48 48"
-                                            >
-                                                <path
-                                                    d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z"
-                                                    fill="white"
-                                                ></path>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </Link>
+                                <>
+                                    <Link
+                                        key={index}
+                                        className="hidden md:flex gap-2"
+                                        href={"/servicio/" + item.link}
+                                    >
+                                        <div className="w-28 h-28 rounded-4xl overflow-hidden hover:scale-105 transition-all duration-200">
+                                            <img
+                                                src={item.logo}
+                                                alt={item.servicio}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="flex flex-col items-start gap-1">
+                                            <span className="text-lg text-black font-bold">
+                                                {item.servicio}
+                                            </span>
+                                            <span className="text-gray-500 text-sm mb-1">
+                                                ${" "}
+                                                {cheapestPlan
+                                                    ? cheapestPlan.precioActual.toLocaleString(
+                                                          "es-CL"
+                                                      )
+                                                    : "N/A"}
+                                            </span>
+                                            <button className="flex items-center gap-2 p-2 px-3 bg-black text-white rounded-full text-xs hover:scale-110 transition-all duration-200">
+                                                Comprar
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="15"
+                                                    height="15"
+                                                    viewBox="0 0 48 48"
+                                                >
+                                                    <path
+                                                        d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z"
+                                                        fill="white"
+                                                    ></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </Link>
+                                    <a
+                                        key={index}
+                                        className="flex md:hidden gap-2"
+                                        href={"/servicio/" + item.link}
+                                    >
+                                        <div className="w-28 h-28 rounded-4xl overflow-hidden hover:scale-105 transition-all duration-200">
+                                            <img
+                                                src={item.logo}
+                                                alt={item.servicio}
+                                                className="w-full h-full object-cover"
+                                            />
+                                        </div>
+                                        <div className="flex flex-col items-start gap-1">
+                                            <span className="text-lg text-black font-bold">
+                                                {item.servicio}
+                                            </span>
+                                            <span className="text-gray-500 text-sm mb-1">
+                                                ${" "}
+                                                {cheapestPlan
+                                                    ? cheapestPlan.precioActual.toLocaleString(
+                                                          "es-CL"
+                                                      )
+                                                    : "N/A"}
+                                            </span>
+                                            <button className="flex items-center gap-2 p-2 px-3 bg-black text-white rounded-full text-xs hover:scale-110 transition-all duration-200">
+                                                Comprar
+                                                <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    x="0px"
+                                                    y="0px"
+                                                    width="15"
+                                                    height="15"
+                                                    viewBox="0 0 48 48"
+                                                >
+                                                    <path
+                                                        d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z"
+                                                        fill="white"
+                                                    ></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </a>
+                                </>
                             );
                         })}
                         {filteredData.length === 0 && (

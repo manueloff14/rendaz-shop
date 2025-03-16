@@ -20,13 +20,13 @@ const data_planes = [
                 beneficios: [
                     "Acceso al catálogo en HD",
                     "1 dispositivo simultáneo",
-                    "Contenido variado para toda la familia"
+                    "Contenido variado para toda la familia",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
                     "Debes especificar el dispositivo de uso (Cel, TV o PC)",
-                    "No incluye 4K"
-                ]
+                    "No incluye 4K",
+                ],
             },
             {
                 nombre: "Premium",
@@ -36,12 +36,12 @@ const data_planes = [
                 beneficios: [
                     "Acceso en HD",
                     "1 perfil exclusivo para 1 persona",
-                    "Sin interrupciones ni compartir cuentas"
+                    "Sin interrupciones ni compartir cuentas",
                 ],
                 advertencias: [
                     "Debes especificar el dispositivo de uso (Cel, TV o PC)",
-                    "No incluye 4K"
-                ]
+                    "No incluye 4K",
+                ],
             },
             {
                 nombre: "Team",
@@ -51,14 +51,14 @@ const data_planes = [
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 4 perfiles",
-                    "4 pantallas simultáneas"
+                    "4 pantallas simultáneas",
                 ],
                 advertencias: [
                     "Solo para uso familiar",
-                    "No se permite uso comercial"
-                ]
-            }
-        ]
+                    "No se permite uso comercial",
+                ],
+            },
+        ],
     },
     {
         link: "disney-plus",
@@ -73,13 +73,13 @@ const data_planes = [
                 beneficios: [
                     "Acceso a contenido en HD",
                     "1 dispositivo simultáneo",
-                    "Catálogo Disney, Pixar, Marvel y Star Wars"
+                    "Catálogo Disney, Pixar, Marvel y Star Wars",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
                     "Debes especificar el dispositivo de uso (Cel, TV o PC)",
-                    "No incluye 4K"
-                ]
+                    "No incluye 4K",
+                ],
             },
             {
                 nombre: "Premium",
@@ -89,11 +89,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso en HD",
                     "1 perfil exclusivo para 1 persona",
-                    "Catálogo Disney, Pixar, Marvel y Star Wars"
+                    "Catálogo Disney, Pixar, Marvel y Star Wars",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -103,13 +103,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso completo en HD",
                     "Hasta 4 perfiles",
-                    "4 pantallas simultáneas"
+                    "4 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "amazon-prime",
@@ -124,12 +122,12 @@ const data_planes = [
                 beneficios: [
                     "Prime Video en HD",
                     "1 dispositivo simultáneo",
-                    "Acceso a envíos gratuitos de Amazon"
+                    "Acceso a envíos gratuitos de Amazon",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Premium",
@@ -139,11 +137,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso exclusivo en HD",
                     "1 perfil individual",
-                    "Prime Video + envíos Prime"
+                    "Prime Video + envíos Prime",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -153,13 +151,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 4 perfiles",
-                    "4 pantallas simultáneas"
+                    "4 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "hbo-max",
@@ -174,12 +170,12 @@ const data_planes = [
                 beneficios: [
                     "Acceso a HBO Max en HD",
                     "1 dispositivo simultáneo",
-                    "Contenido exclusivo HBO"
+                    "Contenido exclusivo HBO",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Premium",
@@ -189,11 +185,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso exclusivo en 4K",
                     "1 perfil individual",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -203,13 +199,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 3 perfiles",
-                    "3 pantallas simultáneas"
+                    "3 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "paramount-plus",
@@ -224,11 +218,9 @@ const data_planes = [
                 beneficios: [
                     "Acceso en HD",
                     "1 dispositivo simultáneo",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
-                advertencias: [
-                    "Cuenta compartida con otros usuarios"
-                ]
+                advertencias: ["Cuenta compartida con otros usuarios"],
             },
             {
                 nombre: "Premium",
@@ -238,11 +230,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso exclusivo en 4K",
                     "1 perfil individual",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -252,13 +244,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 3 perfiles",
-                    "3 pantallas simultáneas"
+                    "3 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "crunchyroll",
@@ -272,11 +262,9 @@ const data_planes = [
                 descuento: 56.25,
                 beneficios: [
                     "Acceso a contenido anime en HD",
-                    "1 dispositivo simultáneo"
+                    "1 dispositivo simultáneo",
                 ],
-                advertencias: [
-                    "Cuenta compartida con otros usuarios"
-                ]
+                advertencias: ["Cuenta compartida con otros usuarios"],
             },
             {
                 nombre: "Premium",
@@ -286,11 +274,11 @@ const data_planes = [
                 beneficios: [
                     "Acceso exclusivo en 4K",
                     "1 perfil individual",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -299,13 +287,11 @@ const data_planes = [
                 descuento: 7.14,
                 beneficios: [
                     "Acceso completo en 4K",
-                    "Hasta 3 perfiles simultáneos"
+                    "Hasta 3 perfiles simultáneos",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "chatgpt",
@@ -317,14 +303,11 @@ const data_planes = [
                 precioAnterior: 35000,
                 precioActual: 25000,
                 descuento: 6.25,
-                beneficios: [
-                    "Acceso a ChatGPT 4",
-                    "Consultas básicas"
-                ],
+                beneficios: ["Acceso a ChatGPT 4", "Consultas básicas"],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
-                    "Límite de consultas en horas pico"
-                ]
+                    "Límite de consultas en horas pico",
+                ],
             },
             {
                 nombre: "Premium",
@@ -334,11 +317,9 @@ const data_planes = [
                 beneficios: [
                     "Acceso ilimitado a ChatGPT 4",
                     "Incluye funciones beta",
-                    "1 perfil exclusivo para 1 persona"
+                    "1 perfil exclusivo para 1 persona",
                 ],
-                advertencias: [
-                    "Uso personal exclusivamente"
-                ]
+                advertencias: ["Uso personal exclusivamente"],
             },
             {
                 nombre: "Plus",
@@ -347,13 +328,11 @@ const data_planes = [
                 descuento: 5.17,
                 beneficios: [
                     "Cuenta completa para un solo usuario",
-                    "Herramientas avanzadas de análisis"
+                    "Herramientas avanzadas de análisis",
                 ],
-                advertencias: [
-                    "Solo para una persona"
-                ]
-            }
-        ]
+                advertencias: ["Solo para una persona"],
+            },
+        ],
     },
     {
         link: "spotify",
@@ -368,11 +347,9 @@ const data_planes = [
                 beneficios: [
                     "Audio en alta calidad",
                     "Disponible en todos los dispositivos",
-                    "Modo sin conexión"
+                    "Modo sin conexión",
                 ],
-                advertencias: [
-                    "Cuenta compartida con otros usuarios"
-                ]
+                advertencias: ["Cuenta compartida con otros usuarios"],
             },
             {
                 nombre: "Premium",
@@ -384,62 +361,22 @@ const data_planes = [
                     "Audio en alta calidad",
                     "Reproducción en modo aleatorio",
                     "Disponible en todos los dispositivos",
-                    "Modo sin conexión"
+                    "Modo sin conexión",
                 ],
-            }
-        ]
-    }
+            },
+        ],
+    },
 ];
 
 export default function Home() {
     const [popupMounted, setPopupMounted] = useState(false);
     const [animatePopup, setAnimatePopup] = useState(false);
 
-    const data = [
-        {
-            link: "netflix",
-            servicio: "Netflix",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/1024px-Netflix_icon.svg.png",
-            precio: "14.900/mes",
-        },
-        {
-            link: "disney-plus",
-            servicio: "Disney+",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Disney_plus_icon.png",
-            precio: "8.000/mes",
-        },
-        {
-            link: "hbo-max",
-            servicio: "HBO Max",
-            logo: "https://dj7fdt04hl8tv.cloudfront.net/acm/media/product/hbo%20max/max-app-logo-r.png",
-            precio: "9.900/mes",
-        },
-        {
-            link: "amazon-prime",
-            servicio: "Amazon Prime",
-            logo: "https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2020/10/12194108/Amazon-Prime.png?fit=512%2C512&ssl=1",
-            precio: "9.000/mes",
-        },
-        {
-            link: "spotify",
-            servicio: "Spotify",
-            logo: "https://static1.howtogeekimages.com/wordpress/wp-content/uploads/2021/05/spotify-logo-e1667595748678.png",
-            precio: "2.900/mes",
-        },
-        {
-            link: "crunchyroll",
-            servicio: "Crunchyroll",
-            logo: "https://cdn.quicksell.co/-M5mfJ9Y8f2UdhwcIe3E/products/-NVjlQC0yRVBz3v4kFjX.jpg",
-            precio: "5.000/mes"
-        },
-        {
-            link: "chatgpt",
-            servicio: "ChatGPT",
-            logo: "https://static.vecteezy.com/system/resources/previews/024/558/807/non_2x/openai-chatgpt-logo-icon-free-png.png",
-            precio: "25.000/mes",
-        },
-        
-    ];
+    // Función auxiliar para obtener el plan más económico
+    const getCheapestPlan = (planes) =>
+        planes.reduce((prev, curr) =>
+            prev.precioActual < curr.precioActual ? prev : curr
+        );
 
     // Abre el popup montándolo y luego activa la animación
     const openPopup = () => {
@@ -479,12 +416,7 @@ export default function Home() {
 
                 {/* Contenido principal */}
                 <div className="z-[-100] pb-15 md:absolute bottom-0 left-0 w-full flex justify-center items-center">
-                    {/* 
-          Para móvil => w-full
-          Para tablet (md) => w-[40%]
-          También agregamos px-4 en móvil para evitar que el texto se pegue a los bordes
-        */}
-                    <div className="mt-40 w-full md:w-[40%] flex flex-col justify-center items-center gap-6 px-4">
+                    <div className="mt-40 w-full md:w-[42%] flex flex-col justify-center items-center gap-6 px-4">
                         <div className="text-center flex flex-col gap-2">
                             <div className="p-2 w-20 h-20 rounded-3xl overflow-hidden bg-white mx-auto shadow-lg shadow-gray-500 mb-5">
                                 <img
@@ -493,7 +425,6 @@ export default function Home() {
                                     alt=""
                                 />
                             </div>
-                            {/* Ajustamos un poco los tamaños del texto para móvil vs. tablet */}
                             <h1 className="text-4xl md:text-5xl text-white">
                                 Es fácil encontrar lo que buscas
                             </h1>
@@ -548,34 +479,45 @@ export default function Home() {
                                     </button>
                                 </div>
                                 <ul className="flex flex-wrap justify-between gap-6 mt-4">
-                                    {data.map((item, index) => (
-                                        <Link
-                                            href={`/servicio/${item.link}`}
-                                            key={index}
-                                        >
-                                            <li
-                                                key={index}
-                                                className="flex flex-col justify-center items-center gap-2 hover:scale-110 transition-all duration-200 cursor-pointer"
-                                            >
-                                                <div className="w-16 h-16 rounded-2xl overflow-hidden">
-                                                    <img
-                                                        src={item.logo}
-                                                        alt={`Logo ${item.servicio}`}
-                                                        className="w-full h-full object-cover"
-                                                    />
-                                                </div>
-                                                <div className="text-xs flex flex-col gap-2 text-center">
-                                                    <span className="font-bold text-white">
-                                                        {item.servicio}
-                                                    </span>
-                                                    <button className="bg-white text-black p-1 px-2 rounded-2xl font-bold">
-                                                        {item.precio ||
-                                                            "Ver más"}
-                                                    </button>
-                                                </div>
-                                            </li>
-                                        </Link>
-                                    ))}
+                                    {data_planes
+                                        .slice(0, 7)
+                                        .map((item, index) => {
+                                            const cheapestPlan =
+                                                getCheapestPlan(item.planes);
+                                            return (
+                                                <Link
+                                                    href={`/servicio/${item.link}`}
+                                                    key={index}
+                                                >
+                                                    <li className="flex flex-col justify-center items-center gap-2 hover:scale-110 transition-all duration-200 cursor-pointer">
+                                                        <div className="w-16 h-16 rounded-2xl overflow-hidden">
+                                                            <img
+                                                                src={item.logo}
+                                                                alt={`Logo ${item.servicio}`}
+                                                                className="w-full h-full object-cover"
+                                                            />
+                                                        </div>
+                                                        <div className="text-xs flex flex-col gap-2 text-center">
+                                                            <span className="font-bold text-white">
+                                                                {item.servicio}
+                                                            </span>
+                                                            <button className="bg-white text-black p-1 px-2 rounded-2xl font-bold">
+                                                                $ {Math.min(
+                                                                    ...item.planes.map(
+                                                                        (
+                                                                            plan
+                                                                        ) =>
+                                                                            plan.precioActual
+                                                                    )
+                                                                ).toLocaleString(
+                                                                    "es-CL"
+                                                                ) + "/mes"}
+                                                            </button>
+                                                        </div>
+                                                    </li>
+                                                </Link>
+                                            );
+                                        })}
                                 </ul>
                             </div>
                         </div>
