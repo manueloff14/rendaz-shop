@@ -10,51 +10,51 @@ const data = [
         planes: [
             {
                 nombre: "Básico",
-                precioAnterior: 10000,
-                precioActual: 5500,
+                precioAnterior: 11000,
+                precioActual: 7500,
                 descuento: 70.83,
                 beneficios: [
                     "Acceso al catálogo en HD",
                     "1 dispositivo simultáneo",
-                    "Contenido variado para toda la familia"
+                    "Contenido variado para toda la familia",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
                     "Debes especificar el dispositivo de uso (Cel, TV o PC)",
-                    "No incluye 4K"
-                ]
+                    "No incluye 4K",
+                ],
             },
             {
                 nombre: "Premium",
-                precioAnterior: 15000,
+                precioAnterior: 18000,
                 precioActual: 13000,
                 descuento: 8.33,
                 beneficios: [
                     "Acceso en HD",
                     "1 perfil exclusivo para 1 persona",
-                    "Sin interrupciones ni compartir cuentas"
+                    "Sin interrupciones ni compartir cuentas",
                 ],
                 advertencias: [
                     "Debes especificar el dispositivo de uso (Cel, TV o PC)",
-                    "No incluye 4K"
-                ]
+                    "No incluye 4K",
+                ],
             },
             {
                 nombre: "Team",
-                precioAnterior: 50000,
-                precioActual: 42500,
+                precioAnterior: 43000,
+                precioActual: 30000,
                 descuento: 8.88,
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 4 perfiles",
-                    "4 pantallas simultáneas"
+                    "4 pantallas simultáneas",
                 ],
                 advertencias: [
                     "Solo para uso familiar",
-                    "No se permite uso comercial"
-                ]
-            }
-        ]
+                    "No se permite uso comercial",
+                ],
+            },
+        ],
     },
     {
         link: "disney-plus",
@@ -64,18 +64,18 @@ const data = [
             {
                 nombre: "Básico",
                 precioAnterior: 8000,
-                precioActual: 3500,
+                precioActual: 6500,
                 descuento: 56.25,
                 beneficios: [
                     "Acceso a contenido en HD",
                     "1 dispositivo simultáneo",
-                    "Catálogo Disney, Pixar, Marvel y Star Wars"
+                    "Catálogo Disney, Pixar, Marvel y Star Wars",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
                     "Debes especificar el dispositivo de uso (Cel, TV o PC)",
-                    "No incluye 4K"
-                ]
+                    "No incluye 4K",
+                ],
             },
             {
                 nombre: "Premium",
@@ -85,11 +85,11 @@ const data = [
                 beneficios: [
                     "Acceso en HD",
                     "1 perfil exclusivo para 1 persona",
-                    "Catálogo Disney, Pixar, Marvel y Star Wars"
+                    "Catálogo Disney, Pixar, Marvel y Star Wars",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -99,13 +99,11 @@ const data = [
                 beneficios: [
                     "Acceso completo en HD",
                     "Hasta 4 perfiles",
-                    "4 pantallas simultáneas"
+                    "4 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "amazon-prime",
@@ -115,17 +113,17 @@ const data = [
             {
                 nombre: "Básico",
                 precioAnterior: 6000,
-                precioActual: 4500,
+                precioActual: 6500,
                 descuento: 61.11,
                 beneficios: [
                     "Prime Video en HD",
                     "1 dispositivo simultáneo",
-                    "Acceso a envíos gratuitos de Amazon"
+                    "Acceso a envíos gratuitos de Amazon",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Premium",
@@ -135,11 +133,11 @@ const data = [
                 beneficios: [
                     "Acceso exclusivo en HD",
                     "1 perfil individual",
-                    "Prime Video + envíos Prime"
+                    "Prime Video + envíos Prime",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -149,13 +147,11 @@ const data = [
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 4 perfiles",
-                    "4 pantallas simultáneas"
+                    "4 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "hbo-max",
@@ -165,31 +161,31 @@ const data = [
             {
                 nombre: "Básico",
                 precioAnterior: 8500,
-                precioActual: 3500,
+                precioActual: 6500,
                 descuento: 58.82,
                 beneficios: [
                     "Acceso a HBO Max en HD",
                     "1 dispositivo simultáneo",
-                    "Contenido exclusivo HBO"
+                    "Contenido exclusivo HBO",
                 ],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Premium",
-                precioAnterior: 9500,
-                precioActual: 8500,
+                precioAnterior: 12500,
+                precioActual: 9500,
                 descuento: 11.76,
                 beneficios: [
                     "Acceso exclusivo en 4K",
                     "1 perfil individual",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -199,13 +195,11 @@ const data = [
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 3 perfiles",
-                    "3 pantallas simultáneas"
+                    "3 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "paramount-plus",
@@ -215,16 +209,14 @@ const data = [
             {
                 nombre: "Básico",
                 precioAnterior: 8500,
-                precioActual: 3500,
+                precioActual: 6500,
                 descuento: 58.82,
                 beneficios: [
                     "Acceso en HD",
                     "1 dispositivo simultáneo",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
-                advertencias: [
-                    "Cuenta compartida con otros usuarios"
-                ]
+                advertencias: ["Cuenta compartida con otros usuarios"],
             },
             {
                 nombre: "Premium",
@@ -234,11 +226,11 @@ const data = [
                 beneficios: [
                     "Acceso exclusivo en 4K",
                     "1 perfil individual",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -248,13 +240,11 @@ const data = [
                 beneficios: [
                     "Acceso completo en 4K",
                     "Hasta 3 perfiles",
-                    "3 pantallas simultáneas"
+                    "3 pantallas simultáneas",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "crunchyroll",
@@ -264,29 +254,27 @@ const data = [
             {
                 nombre: "Básico",
                 precioAnterior: 8000,
-                precioActual: 5500,
+                precioActual: 6500,
                 descuento: 56.25,
                 beneficios: [
                     "Acceso a contenido anime en HD",
-                    "1 dispositivo simultáneo"
+                    "1 dispositivo simultáneo",
                 ],
-                advertencias: [
-                    "Cuenta compartida con otros usuarios"
-                ]
+                advertencias: ["Cuenta compartida con otros usuarios"],
             },
             {
                 nombre: "Premium",
                 precioAnterior: 9500,
-                precioActual: 8500,
+                precioActual: 8700,
                 descuento: 11.76,
                 beneficios: [
                     "Acceso exclusivo en 4K",
                     "1 perfil individual",
-                    "Series y películas exclusivas"
+                    "Series y películas exclusivas",
                 ],
                 advertencias: [
-                    "Debes especificar el dispositivo de uso (Cel, TV o PC)"
-                ]
+                    "Debes especificar el dispositivo de uso (Cel, TV o PC)",
+                ],
             },
             {
                 nombre: "Team",
@@ -295,13 +283,11 @@ const data = [
                 descuento: 7.14,
                 beneficios: [
                     "Acceso completo en 4K",
-                    "Hasta 3 perfiles simultáneos"
+                    "Hasta 3 perfiles simultáneos",
                 ],
-                advertencias: [
-                    "Solo para uso familiar"
-                ]
-            }
-        ]
+                advertencias: ["Solo para uso familiar"],
+            },
+        ],
     },
     {
         link: "chatgpt",
@@ -313,14 +299,11 @@ const data = [
                 precioAnterior: 35000,
                 precioActual: 25000,
                 descuento: 6.25,
-                beneficios: [
-                    "Acceso a ChatGPT 4",
-                    "Consultas básicas"
-                ],
+                beneficios: ["Acceso a ChatGPT 4", "Consultas básicas"],
                 advertencias: [
                     "Cuenta compartida con otros usuarios",
-                    "Límite de consultas en horas pico"
-                ]
+                    "Límite de consultas en horas pico",
+                ],
             },
             {
                 nombre: "Premium",
@@ -330,11 +313,9 @@ const data = [
                 beneficios: [
                     "Acceso ilimitado a ChatGPT 4",
                     "Incluye funciones beta",
-                    "1 perfil exclusivo para 1 persona"
+                    "1 perfil exclusivo para 1 persona",
                 ],
-                advertencias: [
-                    "Uso personal exclusivamente"
-                ]
+                advertencias: ["Uso personal exclusivamente"],
             },
             {
                 nombre: "Plus",
@@ -343,13 +324,11 @@ const data = [
                 descuento: 5.17,
                 beneficios: [
                     "Cuenta completa para un solo usuario",
-                    "Herramientas avanzadas de análisis"
+                    "Herramientas avanzadas de análisis",
                 ],
-                advertencias: [
-                    "Solo para una persona"
-                ]
-            }
-        ]
+                advertencias: ["Solo para una persona"],
+            },
+        ],
     },
     {
         link: "spotify",
@@ -364,11 +343,9 @@ const data = [
                 beneficios: [
                     "Audio en alta calidad",
                     "Disponible en todos los dispositivos",
-                    "Modo sin conexión"
+                    "Modo sin conexión",
                 ],
-                advertencias: [
-                    "Cuenta compartida con otros usuarios"
-                ]
+                advertencias: ["Cuenta compartida con otros usuarios"],
             },
             {
                 nombre: "Premium",
@@ -380,12 +357,12 @@ const data = [
                     "Audio en alta calidad",
                     "Reproducción en modo aleatorio",
                     "Disponible en todos los dispositivos",
-                    "Modo sin conexión"
+                    "Modo sin conexión",
                 ],
-            }
-        ]
-    }
-];
+            },
+        ],
+    },
+]
 
 // Función que genera la metadata utilizando el servicio (no el link)
 export async function generateMetadata({ params }) {

@@ -14,8 +14,8 @@ const data_planes = [
         planes: [
             {
                 nombre: "Básico",
-                precioAnterior: 10000,
-                precioActual: 5500,
+                precioAnterior: 11000,
+                precioActual: 7500,
                 descuento: 70.83,
                 beneficios: [
                     "Acceso al catálogo en HD",
@@ -30,7 +30,7 @@ const data_planes = [
             },
             {
                 nombre: "Premium",
-                precioAnterior: 15000,
+                precioAnterior: 18000,
                 precioActual: 13000,
                 descuento: 8.33,
                 beneficios: [
@@ -45,8 +45,8 @@ const data_planes = [
             },
             {
                 nombre: "Team",
-                precioAnterior: 50000,
-                precioActual: 42500,
+                precioAnterior: 43000,
+                precioActual: 30000,
                 descuento: 8.88,
                 beneficios: [
                     "Acceso completo en 4K",
@@ -68,7 +68,7 @@ const data_planes = [
             {
                 nombre: "Básico",
                 precioAnterior: 8000,
-                precioActual: 3500,
+                precioActual: 6500,
                 descuento: 56.25,
                 beneficios: [
                     "Acceso a contenido en HD",
@@ -117,7 +117,7 @@ const data_planes = [
             {
                 nombre: "Básico",
                 precioAnterior: 6000,
-                precioActual: 4500,
+                precioActual: 6500,
                 descuento: 61.11,
                 beneficios: [
                     "Prime Video en HD",
@@ -165,7 +165,7 @@ const data_planes = [
             {
                 nombre: "Básico",
                 precioAnterior: 8500,
-                precioActual: 3500,
+                precioActual: 6500,
                 descuento: 58.82,
                 beneficios: [
                     "Acceso a HBO Max en HD",
@@ -179,8 +179,8 @@ const data_planes = [
             },
             {
                 nombre: "Premium",
-                precioAnterior: 9500,
-                precioActual: 8500,
+                precioAnterior: 12500,
+                precioActual: 9500,
                 descuento: 11.76,
                 beneficios: [
                     "Acceso exclusivo en 4K",
@@ -213,7 +213,7 @@ const data_planes = [
             {
                 nombre: "Básico",
                 precioAnterior: 8500,
-                precioActual: 3500,
+                precioActual: 6500,
                 descuento: 58.82,
                 beneficios: [
                     "Acceso en HD",
@@ -258,7 +258,7 @@ const data_planes = [
             {
                 nombre: "Básico",
                 precioAnterior: 8000,
-                precioActual: 5500,
+                precioActual: 6500,
                 descuento: 56.25,
                 beneficios: [
                     "Acceso a contenido anime en HD",
@@ -269,7 +269,7 @@ const data_planes = [
             {
                 nombre: "Premium",
                 precioAnterior: 9500,
-                precioActual: 8500,
+                precioActual: 8700,
                 descuento: 11.76,
                 beneficios: [
                     "Acceso exclusivo en 4K",

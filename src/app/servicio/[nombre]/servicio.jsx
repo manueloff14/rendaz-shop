@@ -140,16 +140,27 @@ export default function Servicio({ data }) {
                                                         "es-CL"
                                                     )}
                                                 </h3>
-                                                <span
-                                                    className={`ml-2 text-xl font-bold ${
-                                                        plan.nombre ===
-                                                        "Premium"
-                                                            ? "text-[#2b7fff]"
-                                                            : "text-white"
-                                                    }`}
-                                                >
-                                                    - {plan.descuento}%
-                                                </span>
+                                                {/* Cálculo del descuento directamente aquí */}
+                                                {plan.precioAnterior &&
+                                                    plan.precioActual && (
+                                                        <span
+                                                            className={`ml-2 text-xl font-bold ${
+                                                                plan.nombre ===
+                                                                "Premium"
+                                                                    ? "text-[#2b7fff]"
+                                                                    : "text-white"
+                                                            }`}
+                                                        >
+                                                            -{" "}
+                                                            {Math.round(
+                                                                ((plan.precioAnterior -
+                                                                    plan.precioActual) /
+                                                                    plan.precioAnterior) *
+                                                                    100
+                                                            )}
+                                                            %
+                                                        </span>
+                                                    )}
                                             </div>
                                         </div>
 
